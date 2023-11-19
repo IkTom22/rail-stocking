@@ -60,6 +60,12 @@ group :development do
   # gem "spring"
 end
 
+gem 'bootstrap', '~> 5.3.2'
+
+gem 'dartsass-sprockets'
+
+gem 'jquery-rails'
+
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
